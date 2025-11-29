@@ -1,0 +1,35 @@
+{
+    "threads": 5,
+    "timeout": 10,
+    "webhook_url": "",
+    "use_proxies": false,
+    "jitter_min": 0.5,
+    "jitter_max": 1.5,
+    "platforms": {
+        "instagram": true,
+        "github": true,
+        "pinterest": true
+    },
+    "retries": 3,
+    "discord_ping": false,
+    "export_format": "txt",
+    "theme": "dark",
+    "delay": 3,
+    "max_requests_per_minute": 30,
+    "proxy_enabled": false,
+    "proxies": [],
+    "cache_enabled": true,
+    "auto_save": true,
+    "filters": {
+        "min_length": 3,
+        "max_length": 15,
+        "allow_numbers": true,
+        "allow_underscores": true,
+        "banned_words": [
+            "admin",
+            "instagram",
+            "test",
+            "official"
+        ]
+    }
+}
