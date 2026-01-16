@@ -1,0 +1,2 @@
+requests[socks]>=2.31.0
+win10toast>=0.9; platform_system=="Windows"

@@ -1,0 +1,14 @@
+{
+    "threads": 10,
+    "timeout": 15,
+    "webhook_url": "",
+    "use_proxies": false,
+    "jitter_min": 0.5,
+    "jitter_max": 1.5,
+    "platforms": {
+        "pinterest": true,
+        "instagram": true,
+        "github": true
+    },
+    "theme": "sun-valley-dark"
+}
