@@ -74,25 +74,6 @@ Edit `config/settings.json` and add your webhook URL:
 python main.py
 ```
 
-## Build do Executável (Windows)
-
-Pré-requisitos:
-- Python 3.8+ instalado no PATH
-- Dependências do projeto instaladas
-
-1) Instale as dependências e gere o executável (pasta `dist`):
-```powershell
-pip install -r requirements.txt
-./scripts/build.ps1
-```
-
-2) Para gerar em pasta (onedir):
-```powershell
-./scripts/build.ps1 -Mode onedir
-```
-
-O executável estará em `dist/UsernameChecker.exe` (modo padrão `onefile`) ou em `dist/UsernameChecker/UsernameChecker.exe` (modo `onedir`).
-No modo `onedir`, publique a **pasta inteira** `dist/UsernameChecker` — mover apenas o `.exe` causa erro de DLL.
 
 ### Bulk Checker
 
